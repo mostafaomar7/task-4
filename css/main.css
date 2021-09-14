@@ -14,7 +14,9 @@
      border-radius: 23px;
      transition: all 1s;
  }
-
+#home{
+    background-color: white;
+}
  .btnnav:hover {
      background-color: #1468cd;
  }
@@ -291,6 +293,7 @@ font-size: 20px;
  }
  #Symptoms{
      background-color: #F7F9FE;
+    
  }
  .btncontainer{
      padding: 20px;
@@ -522,6 +525,10 @@ button i{
  #do{
      background-color: #e7e8ff;
  }
+ 
+ h1{
+     display: none;
+ }
  .ftex{
      text-align: center;
  }
@@ -594,8 +601,11 @@ button i{
  @media (max-width:450px) {
      .navbar h3 {
          margin-right: 0px;
+         
      }
-
+ .navbar button{
+  width: 50%;
+ }
      .con {
          margin-left: 0px;
          margin-right: 0px;
@@ -611,6 +621,9 @@ button i{
 
       .con span h2 {
          font-size: 15px;
+     }
+     .about .tex h2 {
+         margin-top: 50px;
      }
      .bt button{
       margin-right: 5px;
@@ -639,9 +652,13 @@ button i{
          width: 0px;
      }
      .corona-img img{
+         margin-bottom: 100px;
          width: 90%;
          margin-left: 0px;
          margin-top: 10px;
+     }
+     .home{
+         height: auto;
      }
      .navbar{
         background-color: #111;
