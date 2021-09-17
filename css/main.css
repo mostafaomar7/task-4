@@ -2,9 +2,17 @@
      margin: 0;
      padding: 0;
  }
-.navbar{
-    background-color: white;
-}
+
+ .dark {
+     background-color: #222;
+     color: #ffffff;
+     
+ }
+
+ .navbar {
+     background-color: white;
+ }
+
  .btnnav {
      font-size: 18px;
      color: white;
@@ -13,16 +21,20 @@
      border: none;
      border-radius: 23px;
      transition: all 1s;
+     margin-right: 20px;
  }
-#home{
-    background-color: white;
-}
+
+ #home {
+     background-color: #e7e8ff;
+
+ }
+
  .btnnav:hover {
      background-color: #1468cd;
  }
 
  h3 {
-     margin-right: 400px;
+     margin-right: 350px;
      color: #394B6C;
      font-weight: 900;
      font-size: 28px;
@@ -79,7 +91,8 @@
 
  .corona-img img {
      height: 80%;
-     margin-left:  100px; ;
+     margin-left: 100px;
+     ;
      margin-top: 120px;
  }
 
@@ -133,12 +146,14 @@
      font-size: 12px;
      color: #7d92bb
  }
+
  /*--------about*/
- .about{
+ .about {
      margin-top: 70px;
-     background-color: white;
+     /* background-color: white; */
  }
- .about h2{
+
+ .about h2 {
      margin-top: 50px;
      color: blue;
      font-size: 20px;
@@ -146,204 +161,247 @@
      font-family: 'Times New Roman', Times, serif;
      letter-spacing: 1px;
  }
- .about h1{
-    color: #50658e;
-    font-weight: bold;
-    font-size: 40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ .about h1 {
+     color: #50658e;
+     font-weight: bold;
+     font-size: 40px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
- .pr{
-  margin-left: -38px;
-  color: #111;
-  font-weight: 600;
+
+ .pr {
+     margin-left: -38px;
+     color: #111;
+     font-weight: 600;
  }
- .pr1{
+
+ .pr1 {
      font-size: 20px;
  }
- .pr2{
+
+ .pr2 {
      font-size: 15px;
  }
- .pr3{
+
+ .pr3 {
      font-size: 14px;
  }
- .about .links ul  a{
-    
+
+ .about .links ul a {
+
      text-decoration: none;
      color: #2a81ea;
      border-bottom: 1px solid #e7e8ff;
  }
- .links{
+
+ .links {
      margin-top: 50px;
  }
- .links ul a i{
+
+ .links ul a i {
      margin-left: 20px;
  }
- .links ul{
-    list-style: none;
-    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
-    border: 1px solid #e7e8ff;
-    border-radius: 5px;
+
+ .links ul {
+     list-style: none;
+     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+     border: 1px solid #e7e8ff;
+     border-radius: 5px;
 
  }
- .links ul  li{
-    color: #465675;
-    font-size: 20px;
-    padding: 20px 30px;
-    font-weight: bold;
-    border-bottom: 1px solid #e7e8ff;
+
+ .links ul li {
+     color: #465675;
+     font-size: 20px;
+     padding: 20px 30px;
+     font-weight: bold;
+     border-bottom: 1px solid #e7e8ff;
  }
- .links ul a li{
-    display: flex;
-    justify-content: space-between;
-    color: #2a81ea;
-    font-weight: normal;
-    font-size: 16px;
+
+ .links ul a li {
+     display: flex;
+     justify-content: space-between;
+     color: #2a81ea;
+     font-weight: normal;
+     font-size: 16px;
  }
- .spread{
+
+ .spread {
      text-align: center;
      margin-top: 50px;
  }
- .spread h4{
+
+ .spread h4 {
      color: blue;
-     
+
  }
- .spread h1{
-    color: #465675;
+
+ .spread h1 {
+     color: #465675;
  }
- .spread p{
+
+ .spread p {
      font-weight: bold;
-    
+
  }
- .sprbtn{
+
+ .sprbtn {
      text-align: center;
      margin: auto;
      margin-top: 150px;
      margin-bottom: 50px;
-    font-size: 18px;
-    color: white;
-    background-color: #2a81ea;
-    padding: 10px 14px;
-    border: none;
-    border-radius: 23px;
-    transition: all 1s;
+     font-size: 18px;
+     color: white;
+     background-color: #2a81ea;
+     padding: 10px 14px;
+     border: none;
+     border-radius: 23px;
+     transition: all 1s;
  }
- .sprbtn:hover{
-    background-color: #1468cd;
+
+ .sprbtn:hover {
+     background-color: #1468cd;
  }
- .sprbtn i{
+
+ .sprbtn i {
      margin-right: 10px;
  }
+
  /* .spread img{
      width: 100%;
      height: 100%;
  } */
- .container img{
+ .container img {
      width: 300px;
      display: flex;
-     border-bottom:5px solid blue ;
+     border-bottom: 5px solid blue;
  }
- .container .p1{
+
+ .container .p1 {
      color: blue;
  }
- #spread{
-     background-color: rgba(155, 72, 155, 0.6); 
+
+ #spread {
+     background-color: rgba(155, 72, 155, 0.6);
  }
- .symptext{
+
+ .symptext {
      text-align: center;
      margin-top: 50px;
  }
- .symptext .p1{
-  color: #1468cd;
-font-weight: bold;
-font-size: 20px;
+
+ .symptext .p1 {
+     color: #1468cd;
+     font-weight: bold;
+     font-size: 20px;
 
  }
- .symptext h1{
-    color: #394B6C;
+
+ .symptext h1 {
+     color: #394B6C;
  }
- .sympcontainer{
-     margin-top:100px ;
+
+ .sympcontainer {
+     margin-top: 100px;
      width: auto;
      padding: 25px;
-     
+
  }
- .symp{
-    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+
+ .symp {
+     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
  }
- .symptext1{
+
+ .symptext1 {
      width: 400px;
      display: flex;
  }
+
  /* .sympcontainer .symptext1{
     box-shadow: 0px 5px 40px 0px rgb(11 11 11 / 8%);
  } */
- .sympcontainer h6{
+ .sympcontainer h6 {
      color: #2a81ea;
  }
- .sympimg{
-    width: 80px;
-    position: absolute;
-    top: -35%;
-    right: 10%;
+
+ .sympimg {
+     width: 80px;
+     position: absolute;
+     top: -35%;
+     right: 10%;
  }
- .sympimg img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+
+ .sympimg img {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
  }
- #Symptoms{
+
+ #Symptoms {
      background-color: #F7F9FE;
-    
+
  }
- .btncontainer{
+
+ .btncontainer {
      padding: 20px;
  }
- .btncontainer button{
-    font-size: 18px;
-    color: white;
-    background-color: #2a81ea;
-    padding: 10px 14px;
-    border: none;
-    border-radius: 23px;
-    transition: all 1s;
-}
-.btncontainer button:hover{
-    background-color: #FF5363;
-}
-button i{
-    margin-right: 10px;
-}
-.btncontainer{
-    background-color: rgb(209, 23, 23);
-}
-.btncontainer p{
-    font-size: 20px;
-    font-weight: bold;
-}
- .prtext{
-     text-align: center;
-     
+
+ .btncontainer button {
+     font-size: 18px;
+     color: white;
+     background-color: #2a81ea;
+     padding: 10px 14px;
+     border: none;
+     border-radius: 23px;
+     transition: all 1s;
  }
- .prtext .p1{
+
+ .btncontainer button:hover {
+     background-color: #FF5363;
+ }
+
+ button i {
+     margin-right: 10px;
+ }
+
+ .btncontainer {
+     background-color: rgb(209, 23, 23);
+ }
+
+ .btncontainer p {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .prtext {
+     text-align: center;
+
+ }
+
+ .prtext .p1 {
      color: blue;
      font-weight: bold;
      font-size: 20px;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
- .prtext h1{
+
+ .prtext h1 {
      color: #394B6C;
      font-weight: bold;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
- .prtext p{
+
+ .prtext p {
      font-weight: bold;
      font-size: 15px;
  }
- .prcontainer{
+
+ .prcontainer {
      margin-top: 50px;
      padding: 80px;
  }
- .prcontainer img{
+
+ .prcontainer img {
      width: 80px;
      border-radius: 50%;
      border-bottom: 1px dashed blue;
@@ -351,261 +409,323 @@ button i{
      left: 20%;
      top: -58%;
  }
- .prcontainer h6{
-    color: #394B6C;
-    font-weight: bold;
+
+ .prcontainer h6 {
+     color: #394B6C;
+     font-weight: bold;
  }
- .prcontainer p{
+
+ .prcontainer p {
      color: #111;
  }
- #Prevention{
+
+ #Prevention {
      margin-top: 50px;
      background-color: #e7e8ff;
  }
- .btt button{
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: white;
-    background-color: #2a81ea;
-    padding: 10px 14px;
-    border: none;
-    border-radius: 23px;
-    transition: all 1s;
+
+ .btt button {
+     margin-bottom: 20px;
+     font-size: 18px;
+     color: white;
+     background-color: #2a81ea;
+     padding: 10px 14px;
+     border: none;
+     border-radius: 23px;
+     transition: all 1s;
  }
- .btt button:hover{
+
+ .btt button:hover {
      background-color: teal;
  }
- .btt a{
+
+ .btt a {
      font-size: 20px;
      font-weight: bold;
-    text-decoration: none;
+     text-decoration: none;
  }
- .btt{
+
+ .btt {
      text-align: center;
      margin-bottom: 20px;
  }
- .stcon img{
+
+ .stcon img {
      width: 100%;
      height: 90%;
  }
+
  .stcon {
      margin-top: 50px;
      padding: 50px;
      box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 100%);
      background-color: white;
  }
- .stcon p{
+
+ .stcon p {
      margin-bottom: 35px;
  }
- .stcon i{
+
+ .stcon i {
      margin-right: 10px;
      color: teal;
  }
- .stcon h6{
+
+ .stcon h6 {
      font-size: 25px;
      margin-bottom: 30px;
      font-weight: bold;
  }
- #wash{
+
+ #wash {
      background-color: #e7e8ff;
  }
- #wash p{
-      color: #465675;
-      font-size: 25px;
-      font-weight: bold;
-      
+
+ #wash p {
+     color: #465675;
+     font-size: 25px;
+     font-weight: bold;
+
  }
- #wash a{
+
+ #wash a {
      text-decoration: none;
      text-align: center;
      font-size: 20px;
      font-weight: bold;
  }
- #wash i{
-    color: red ;
-    margin-left: 10px;
+
+ #wash i {
+     color: red;
+     margin-left: 10px;
  }
- .wcon{
-     padding: 80px 80px 50px ;
-    margin-top: 30px;
+
+ .wcon {
+     padding: 80px 80px 50px;
+     margin-top: 30px;
  }
- #wash img{
-     
+
+ #wash img {
+
      width: 100px;
      border-radius: 50%;
  }
- #wash h6{
-    margin-top: 10px;
+
+ #wash h6 {
+     margin-top: 10px;
  }
- .bttt{
+
+ .bttt {
      text-align: center;
  }
- .trtx{
-    padding: 80px 80px 0px 80px;
-    
+
+ .trtx {
+     padding: 80px 80px 0px 80px;
+
  }
- .trtx ul{
+
+ .trtx ul {
      list-style: none;
  }
- .trtx ul li{
+
+ .trtx ul li {
      display: flex;
      margin-bottom: 15px;
  }
- .trtx i{
+
+ .trtx i {
      margin-right: 10px;
      color: white;
  }
- .trtx h1{
+
+ .trtx h1 {
      font-weight: lighter bolder;
      margin-bottom: 5px;
  }
- .trtx span{
-    font-weight: bold;
+
+ .trtx span {
+     font-weight: bold;
  }
- .trxt1 h5{
+
+ .trxt1 h5 {
      margin-bottom: 5px;
      font-weight: lighter;
  }
- .trxt1 p{
+
+ .trxt1 p {
      margin-bottom: 10px;
      letter-spacing: 2px;
      margin-bottom: 20px;
  }
- .trxt1{
+
+ .trxt1 {
      margin-bottom: 80px;
-     font-weight:600;
+     font-weight: 600;
      box-shadow: 0px 5px 40px 0px rgb(45 68 164 / 100%);
      padding: 30px 90px 20px 30px;
  }
- .trtx h6{
+
+ .trtx h6 {
      color: rgb(0, 238, 255);
      font-size: 18px;
      font-weight: bold;
  }
- #treatment{
-    background-color: #2766bb;
-    color: white;
+
+ #treatment {
+     background-color: #2766bb;
+     color: white;
  }
- .dotext{
+
+ .dotext {
      text-align: center;
  }
- .dotext h6{
+
+ .dotext h6 {
      color: blue;
      font-size: 15px;
      font-weight: 800;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  }
- .dotext h1{
+
+ .dotext h1 {
      color: #394B6C;
      font-size: 35px;
      font-weight: lighter bold;
  }
- .docon .img1{
+
+ .docon .img1 {
      width: 480px;
-     margin-top:50px ;
+     margin-top: 50px;
      border: none;
      margin-left: 60px;
  }
- .con1{
+
+ .con1 {
      display: flex;
  }
- .con1 h6{
+
+ .con1 h6 {
      margin-top: 60px;
  }
- .docon img{
+
+ .docon img {
      width: 150px;
      border-radius: 50%;
-     
+
  }
- .docon{
-    padding: 25px ;
-    margin-left: 20px;
+
+ .docon {
+     padding: 25px;
+     margin-left: 20px;
  }
- #do{
+
+ /* #do {
      background-color: #e7e8ff;
- }
- 
- h1{
-     display: none;
- }
- .ftex{
+ } */
+
+ .ftex {
      text-align: center;
  }
- .ftex h6{
+
+ .ftex h6 {
      color: blue;
      font-weight: bold;
      font-size: 20px;
  }
- .ftex h1{
-    color:#394B6C;
-    font-weight: bold;
-    font-size: 30px;
+
+ .ftex h1 {
+     color: #394B6C;
+     font-weight: bold;
+     font-size: 30px;
  }
- .fcon{
+
+ .fcon {
      padding: 25px;
  }
- .fcon h6{
+
+ .fcon h6 {
      margin-bottom: 15px;
  }
- .fcon img{
+
+ .fcon img {
      width: 280px;
      margin-bottom: 20px;
  }
- .f1{
-    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 10%);
-    
+
+ .f1 {
+     box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 10%);
+
  }
- #news{
+
+ #news {
      background-color: #e7e8ff;
  }
- #footer{
+
+ #footer {
      background-color: #151c2e;
  }
- .focon{
+
+ .focon {
      padding: 25px;
  }
- .focon h4{
+
+ .focon h4 {
      color: beige;
      margin-bottom: 10px;
  }
+
  .focon .f {
-    color: #FF5363;
+     color: #FF5363;
  }
-  .focon p{
+
+ .focon p {
      color: #89a9e4;
      font-weight: bold;
      font-size: 13px;
      margin-top: 20px;
  }
- .focon a{
-    color: #89a9e4;
-    text-decoration: none;
-    font-size: 14x;
+
+ .focon a {
+     color: #89a9e4;
+     text-decoration: none;
+     font-size: 14x;
  }
- a:hover{
+
+ a:hover {
      color: blue;
  }
-.fcon ul li a{
-    margin-top: 10px;
-}
- #footer ul li{
+
+ .fcon ul li a {
+     margin-top: 10px;
+ }
+
+ #footer ul li {
      list-style: none;
  }
- .dg span{
-     color:rgb(20, 255, 165);
+
+ .dg span {
+     color: rgb(20, 255, 165);
  }
- .dg1{
+
+ .dg1 {
      margin-bottom: 150px;
  }
+
  @media (max-width:450px) {
+
      .navbar h3 {
          margin-right: 0px;
-         
+
      }
- .navbar button{
-  width: 50%;
- }
+
+     .navbar button {
+         width: 50%;
+     }
+     .btnnav{
+         margin-bottom: 10px;
+     }
+     
      .con {
          margin-left: 0px;
          margin-right: 0px;
@@ -615,120 +735,148 @@ button i{
          font-size: 50px;
      }
 
-      .con span h3 {
+     .con span h3 {
          font-size: 15px;
      }
 
-      .con span h2 {
+     .con span h2 {
          font-size: 15px;
      }
+
      .about .tex h2 {
          margin-top: 50px;
      }
-     .bt button{
-      margin-right: 5px;
-      width:170px ;
-      font-size: 13px;
+
+     .bt button {
+         margin-right: 5px;
+         width: 170px;
+         font-size: 13px;
      }
-     .bt{
+
+     .bt {
          margin-left: 0px;
      }
-     .bt a{
+
+     .bt a {
          font-size: 15px;
      }
-     .num h5{
+
+     .num h5 {
          font-size: 10px;
      }
-     .num h6{
+
+     .num h6 {
          font-size: 9px;
      }
-     .num .b1{
+
+     .num .b1 {
          margin-right: 28px;
      }
-     *{
+
+     * {
          width: auto;
      }
-     .con span{
+
+     .con span {
          width: 0px;
      }
-     .corona-img img{
+
+     .corona-img img {
          margin-bottom: 100px;
          width: 90%;
          margin-left: 0px;
          margin-top: 10px;
      }
-     .home{
+
+     .home {
          height: auto;
      }
-     .navbar{
-        background-color: #111;
+
+     .navbar {
+         background-color: #fff;
      }
-     .navbar h3{
-         color: beige;
+
+     .navbar h3 {
+         color: #394B6C;
      }
-     .navbar button i{
-         color:beige
+
+     .navbar button i {
+         color: black
      }
+
      .pr {
-        margin-left: -10px;
-        margin-bottom: 0px;
-        font-size: 14px;
-        letter-spacing: 0px;
+         margin-left: -10px;
+         margin-bottom: 0px;
+         font-size: 14px;
+         letter-spacing: 0px;
      }
-     .sympcontainer{
+
+     .sympcontainer {
          margin-left: 0px;
      }
-     .sympcontainer p{
+
+     .sympcontainer p {
          width: 300px;
          font-size: 12px;
      }
-     .sympimg{
+
+     .sympimg {
          width: 40px;
          margin-bottom: 0px;
          position: absolute;
          top: -13%;
      }
-     .symptext1{
+
+     .symptext1 {
          width: auto;
      }
-     .prcontainer img{
+
+     .prcontainer img {
          position: absolute;
          top: -45%;
          left: 5%;
      }
-     .prcontainer .im1{
+
+     .prcontainer .im1 {
          margin-bottom: 100px;
      }
-     .im2{
+
+     .im2 {
          margin-bottom: 100px;
      }
-     #wash img{
-         margin-right:20px ;
-         
+
+     #wash img {
+         margin-right: 20px;
+
      }
-     .wcon{
-        margin-top: -50px;
+
+     .wcon {
+         margin-top: -50px;
      }
-     #treatment h1{
-        font-size: 20px;
-        margin-bottom: 10px;
+
+     #treatment h1 {
+         font-size: 20px;
+         margin-bottom: 10px;
      }
-     .trxt1{
+
+     .trxt1 {
          padding: 0px;
-         margin-bottom:20px ;
+         margin-bottom: 20px;
      }
-     .trxt1 h5{
+
+     .trxt1 h5 {
          margin-top: 20px;
      }
-     .docon .img1{
+
+     .docon .img1 {
          width: 300px;
          margin-top: 20px;
          margin-left: 0px;
-    }
-    
-    .docon{
-        
-       width: auto;
-        margin-left: 20px;
-    }
+     }
+
+     .docon {
+
+         width: auto;
+         margin-left: 20px;
+     }
  }
